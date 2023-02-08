@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Titre de mon onglet-->
+    <title>ICN 2018-19</title>
+
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <!--Permet de référencer les mots désigné-->
+
+    <!--Ceci est pour imposer au navigateur d'accepter l'utf-8-->
+    <meta http-equiv="Content-Type" content="text/html ; cherset=utf-8" />
+
+    <!--Là, c'est pour faire un lien entre les fichier et le CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Ceci donne le nom de l'auteur-->
+    <meta name="auteur" content="Nathan" />
+
+    <!--permet de relier html avec javascript-->
+    <script type="text/javascript" src="js/1.js"></script>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="menu acceuil">
+        <a href="#acceuil"><button class="button">Acceuil</button></a>
+        <!--lien interne à la page avec un bouton pour pouvoir changer le style de la balise en css-->
+      </div>
+      <div class="menu profil">
+        <a href="#Formation"><button class="button">Formation</button></a>
+      </div>
+      <div class="menu formations">
+        <a href="#Expériences"><button class="button">Experiences</button></a>
+      </div>
+      <div class="menu experience">
+        <a href="#Compétence technique"><button class="button">Compétence</button></a>
+      </div>
+      
+    </div>
+
+    <div class="container">
+      <!--h1=titre -->
+      <header id="acceuil">
+           <h1 class="titre">NATHAN MOLLET</h1>
+         
+           <img id="nathan" src="donnees/nathan.jpg" alt="photo nathan" ><br><br>
+           <div class="titre2">
+             07.84.93.62.64 <br>
+             nathan.mollet@lacatholille.fr<br>
+             <a href="https://www.linkedin.com/in/nathan-mollet/"></a>
+            <img class="linkedin" src="linkedin.png">
+             <a href="https://www.linkedin.com/in/nathan-mollet-595b981b9/">lien de mon linkedin</a><br>
+            </div>
+        
+
+      </header>
+
+  <style >
+      table,th,td{
+        width:100%; border:4px solid black;
+        padding: 30px;
+        text-align: center;
+        border-collapse: collapse;
+      } 
+      td{
+        width:50%
+      }
+  </style>      
+     <table>
+        <tr>
+          <td id="Formation">Formation</td>
+          <td>L1 SDN</td>
+          
+        </tr>
+        <tr>
+          <td id="Expériences">Expériences</td>
+          <td>Cableur</td>
+         
+        </tr>
+        <tr>
+          <td id="Compétence">Compétence technique</td>
+          <td>Html , CSS</td>
+         
+        </tr>
+    </table>
+           
+ </div>
+          
+        
+   
+
+          
+         
+    
+  </body>
+</html>

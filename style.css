@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  font-family: "Georgia, serif;";
+  font-size: medium;
+  background-image: url("../donnees/fondécran.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.nav {
+  display: grid;
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+  /** permet de définir le nombre et la taille des lignes**/
+  grid-auto-columns: 19vw;
+  /** permet de définir la taille de la colone **/
+  position: fixed;
+  height: 96vh;
+  text-align: center;
+  border-width: 2vh 0vw 2vh 1vw;
+  /**vh et vw permettre de définir la taille en % celon la fenetre **/
+  border-style: solid;
+  border-color: black;
+}
+
+.linkedin{
+  width: 30px;
+  height: 30px;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  /** % permettre de définir la taille en % celon la la taille de la div **/
+  transition: 500ms;
+  font-family: "Trebuchet MS";
+  font-size: medium;
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.button:hover {
+  /** :hover permet de donner ces caractéristiques lorsque la balise est survolé **/
+  background-color: rgba(255, 255, 255, 0.699);
+  border-width: 0px 10px 0px 0px;
+  border-style: solid;
+  border-color: #52525263;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 100vh 300vh 105vh;
+  grid-auto-columns: 78vw;
+  margin-left: 20vw;
+  border-color: black;
+  border-style: solid;
+  border-width: 12px 10px; /** il y a un probleme de 0.2vw qui vient de je ne sais où
+   donc j'utilise des px car j'ai des problemes lorsque j'utilise mes liens internes **/
+}
+
+header {
+  text-align: center;
+
+  margin: 0px;
+}
+
+#nathan {
+  height: 130px;
+  width: 120px;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
